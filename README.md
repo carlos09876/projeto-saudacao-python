@@ -1,24 +1,41 @@
-# 🐍 Projeto: Saudação com Python
+# Projeto de Saudação em Python
 
-Este projeto simples pede o nome do usuário e exibe uma mensagem de boas-vindas personalizada no terminal.
+Este é um projeto simples em Python que dá uma saudação ao usuário com base no nome e horário informado.
+
+## 📜 O que o código faz?
+
+O arquivo `saudacao.py` faz o seguinte:
+
+1. Pede o nome do usuário;
+2. Pede o horário atual (número entre 0 e 23);
+3. De acordo com o horário, mostra uma saudação:
+   - **Bom dia** (das 5h até 11h)
+   - **Boa tarde** (das 12h até 17h)
+   - **Boa noite** (das 18h até 4h)
+
+Exemplo de saída:
+Digite seu nome: Carlos
+Digite a hora atual (0-23): 15
+Boa tarde, Carlos!
+
 
 ---
 
-## 📁 Arquivos do Projeto
+## ▶️ Como executar o projeto
 
-- `meu_script.py` — Script principal em Python
-- `executar.sh` — Script bash para execução automatizada
+Este repositório possui um arquivo `.sh` que facilita a execução do script Python.
 
----
+### Passo 1: Dar permissão ao arquivo `.sh` (apenas uma vez)
 
-## 🚀 Como Executar
+No terminal ou Git Bash:
 
-### Pré-requisitos
-- Ter o **Python 3** instalado no sistema
-
-### Passos
-
-1. Dê permissão ao script `.sh` (apenas na primeira vez):
 ```bash
 chmod +x executar.sh
+
+./executar.sh
+
+
+
+
+
 
